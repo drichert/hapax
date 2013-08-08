@@ -8,11 +8,12 @@ Gem::Specification.new do |gem|
   gem.version       = Hapax::VERSION
   gem.authors       = ["Dan Richert"]
   gem.email         = ["dan.richert@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Find words that only occur once within a context}
+  gem.summary       = %q{Find things said only once}
+  gem.homepage      = "https://github.com/drichert/hapax"
+  gem.license       = "MIT"
 
-  gem.add_dependency("sep", "~> 0.0.2")
+  gem.add_dependency("sep", "~> 0.0.3")
 
   gem.add_development_dependency("rspec")
 
