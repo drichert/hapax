@@ -1,5 +1,8 @@
 require "hapax/version"
+require "hapax/finder"
 
 module Hapax
-  # Your code goes here...
+  def self.find(words)
+    Finder.new(words).find
+  end
 end

@@ -1,6 +1,7 @@
 require "rspec"
 require "bundler/setup"
 
+require "hapax"
 require "sep"
 
 module RSpec::Hapax
