@@ -12,7 +12,8 @@ describe Hapax::Finder do
     describe "0..4" do
       subject { described_class.new(words).find.slice(0..4) }
 
-      it { should match_array(%w{MEANING Aim 1 generally understood}) }
+      #it { should match_array(%w{MEANING Aim 1 generally understood}) }
+      it { should == %w{MEANING Aim 1 generally understood} }
     end
   end
 end
