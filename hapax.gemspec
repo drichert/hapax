@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.license       = "MIT"
 
   gem.add_dependency("sep", "~> 0.0.3")
+  gem.add_dependency("celluloid", "~> 0.14.1")
 
   gem.add_development_dependency("rspec")
 
