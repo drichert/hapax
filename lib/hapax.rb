@@ -1,5 +1,4 @@
 require "hapax/version"
-require "hapax/word_checker"
 require "hapax/finder"
 
 module Hapax
